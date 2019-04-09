@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Web Visualization Dashboard</title>
+  <title>Cloudiness Web Visualization</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">  <link rel="stylesheet" href="style.css">
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
@@ -43,18 +43,18 @@
 
   <h1></h1>
 
-  <div class="container">
+  <div class="container-fluid">
 
     <!-- First Row -->
     <div class="row">
 
       <!-- First (two columns) -->
       <div class="col-md-8">
-        <h3 style="color:teal;">Summary:Latitude vs.X</h3>
+        <h3 style="color:teal;">Cloudiness</h3>
         <hr>
-        <img src="./Resources/assets/images/Fig1.png" alt="Lattitude"  height="300" width="400" align="left">
-        <p>The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.</p>
-        <p>After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factors we looked at included:temperature, cloudiness, wind speed, and humidity. This site provide the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.</p>
+        <img src="./Resources/assets/images/Fig3.png" alt="cloudiness" style="width:100%">
+        <p>There is no strong relationship between latitude and cloudiness. However, it is interesting to see that a strong band of cities sits at 0, 80, and 100% cloudiness.
+        </p>
       </div>
       <div class="col-md-4">
         <h5 style="color:teal;">Visualizations</h5>
@@ -91,3 +91,6 @@
 
 </html>
 
+
+
+<p>
